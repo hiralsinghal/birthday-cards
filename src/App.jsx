@@ -6,11 +6,16 @@ import Countdown from './pages/Countdown'
 import Gift from './pages/Gift-ideas'
 import './App.css'
 
+import { useWindowSize } from 'react-use'
+import Confetti from 'confetti'
+
 function App() {
+  const { innerWidth, innerHeight } = useWindowSize()
   return (
     <BrowserRouter>
       <Navbar/>
       <main>
+        {/*<Confetti width={innerWidth} height={innerHeight}></Confetti>*/}
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/birthday-facts" element={<Facts/>}/>
