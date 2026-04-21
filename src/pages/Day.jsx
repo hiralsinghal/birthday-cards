@@ -14,7 +14,7 @@ export default function DayFacts() {
     }
 
     return (
-        <div className="flex flex-col place-content-center">
+        <div className="flex flex-col place-content-center min-h-screen">
             <header>
                 <h1 className="p-8 text-4xl text-center">On this Day</h1>
             </header>

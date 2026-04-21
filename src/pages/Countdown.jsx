@@ -1,7 +1,7 @@
 
 export default function Countdown() {
     return (
-        <>
+        <div className="min-h-screen">
             <header>
                 <h1 className="p-8 text-4xl text-center">Countdown</h1>
             </header>
@@ -12,6 +12,6 @@ export default function Countdown() {
                     <button id="show" className="pl-2">Show</button>
                 </div>
             </main>
-        </>
+        </div>
     )
 }
