@@ -7,7 +7,7 @@ import Gift from './pages/Gift-ideas'
 import './App.css'
 
 import { useWindowSize } from 'react-use'
-import Confetti from 'confetti'
+import Confetti from 'react-confetti'
 
 function App() {
   const { innerWidth, innerHeight } = useWindowSize()
