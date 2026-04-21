@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import Home from './pages/Home'
 import DayFacts from './pages/Day'
 import Countdown from './pages/Countdown'
@@ -23,6 +24,7 @@ function App() {
           <Route path="/gift-ideas" element={<Gift/>}/>
         </Routes>
       </main>
+      <Footer/>
     </BrowserRouter>
   )
 }
