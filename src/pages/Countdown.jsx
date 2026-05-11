@@ -1,5 +1,16 @@
+import React, {useState, useEffect} from "react";
 
 export default function Countdown() {
+    const [timers, setTimers] = useState([]);
+    const [newTimerDateTime, setNewTimerDateTime] = useState("");
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setTimers(prev)
+        })
+    })
+    
+
     return (
         <div className="min-h-screen">
             <header>
@@ -13,5 +24,5 @@ export default function Countdown() {
                 </div>
             </main>
         </div>
-    )
-}
+    );
+};
