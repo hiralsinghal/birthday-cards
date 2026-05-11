@@ -24,6 +24,7 @@ export default function DayFacts() {
                     <input id="date" type="date" value={date} onChange={e => setDate(e.target.value)}></input>
                     <button id="fetch" className="pl-2" onClick={fetchDay}>Fetch</button>
                 </div>
+                <p className="text-[12px] text-center">*your data won't be stored</p>
             </main>
 
             <ul className="m-4">
