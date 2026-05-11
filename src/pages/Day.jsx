@@ -20,7 +20,7 @@ export default function DayFacts() {
             </header>
 
             <main>
-                <div className="bg-[#3B55EB] rounded-4xl ml-auto mr-auto w-52 p-4 flex flex-row text-center content-center justify-center">
+                <div className="bg-[#a6d7ff] rounded-4xl ml-auto mr-auto w-52 p-4 flex flex-row text-center content-center justify-center">
                     <input id="date" type="date" value={date} onChange={e => setDate(e.target.value)}></input>
                     <button id="fetch" className="pl-2" onClick={fetchDay}>Fetch</button>
                 </div>
